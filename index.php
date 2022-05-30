@@ -13,7 +13,6 @@ if(empty($_POST) == false)
 
     ajouterMembre(
         $_POST['membre']
-       // Valeur de l'<option> sélectionnée
     );
     // Les données du formulaire sont fournies dans l'ordre des arguments de la fonction
     
