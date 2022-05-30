@@ -20,19 +20,25 @@
     </header>
 
     <!-- Main section -->
-    <main>
-        <div class="container">
+    <main class="container">
+        <div>
             <form action="editMembre.php" method="POST">
-                <input type="hidden"  id="id"name="id" value="<?= $MembreId['id'] ?>">
+                <input type="hidden" id="id" name="id" value="<?= $MembreId['id'] ?>">
                 <div class="form-group col-4">
                 </div>
                 <div class="form-group col-8">
                     <label for="memebre">Nom :</label>
                     <input type="text" class="form-control" id="membre" name="membre" maxlength="30" value="<?= $MembreId['membre'] ?>">
                 </div>
-                <button type="submit" class="btn btn-primary">Enregistrer</button>
+                <button type="submit" class="btn btn-primary mt-2">Enregistrer</button>
         </div>
         <button type="submit" class="btn btn-primary mt-2" value="Retour" onclick="history.go(-1)">Retour</button>
         </form>
         </div>
     </main>
+    <footer>
+        <p>Réalisé par Jason en Anthestérion de l'an 515 avant JC</p>
+    </footer>
+</body>
+
+</html>
